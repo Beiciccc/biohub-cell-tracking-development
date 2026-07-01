@@ -7,7 +7,7 @@ submission list was empty before this batch.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
-| exp001 | `beicicc/biohub-cell-tracking-exp001-classical` | Classical local maxima + Hungarian linking | pending | pending | Baseline schema/runtime check |
+| exp001 | `beicicc/biohub-cell-tracking-exp001-classical` | Classical local maxima + Hungarian linking | complete | 0.750 | Stable baseline |
 | exp002 | `beicicc/biohub-cell-tracking-exp002-dog-bandpass` | DoG band-pass + Hungarian linking | pending | pending | Alternate detector |
 | exp003 | `beicicc/biohub-cell-tracking-exp003-more-nodes` | Classical, lower threshold | pending | pending | Tests node-count sensitivity |
 | exp004 | `beicicc/biohub-cell-tracking-exp004-conservative` | Classical, higher threshold | pending | pending | Tests overprediction penalty |
