@@ -27,7 +27,7 @@ The first batch uses classical 3D peak detection and physical-distance linking:
 | exp002 | UNet + ILP | Public artifact model with threshold 0.99 and ILP linking |
 | exp003 | UNet + ILP geometry prune | Threshold 0.995, division weight 0.8, geometry cleanup |
 | exp004 | UNet + ILP edge -0.8 | Threshold 0.995, division weight 0.8, geometry cleanup |
-| exp005 | UNet + ILP mild prune | Threshold 0.995, division weight 0.8, milder division cleanup |
+| exp005 | UNet + ILP edge -0.5 | Threshold 0.995, division weight 0.8, geometry cleanup |
 
 ## Validation
 
