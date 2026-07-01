@@ -1,0 +1,13 @@
+data/
+outputs/
+public_kernels/
+submissions/
+*.zip
+*.csv
+*.log
+._*
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.env
+kaggle.json
