@@ -24,7 +24,7 @@ The first batch uses classical 3D peak detection and physical-distance linking:
 | Experiment | Method | Main change |
 |---|---|---|
 | exp001 | Classical baseline | Moderate local maxima with two-pass Hungarian linking |
-| exp002 | DoG band-pass | Difference-of-Gaussians candidate detection |
+| exp002 | UNet + ILP | Public artifact model with threshold 0.99 and ILP linking |
 | exp003 | More nodes | Lower threshold and smaller non-maximum suppression radius |
 | exp004 | Conservative | Higher threshold and larger suppression radius |
 | exp005 | Link12 | Wider physical linking gate with gap closing enabled |

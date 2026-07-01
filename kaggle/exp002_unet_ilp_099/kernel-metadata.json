@@ -1,0 +1,17 @@
+{
+  "id": "beicicc/biohub-cell-tracking-exp002-unet-ilp-099",
+  "title": "Biohub Cell Tracking Exp002 UNet ILP 099",
+  "code_file": "biohub-exp002-unet-ilp-099.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "thibautgoldsborough/cellmot-baseline-artifacts"
+  ],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ]
+}
