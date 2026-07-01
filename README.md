@@ -25,9 +25,9 @@ The first batch uses classical 3D peak detection and physical-distance linking:
 |---|---|---|
 | exp001 | Classical baseline | Moderate local maxima with two-pass Hungarian linking |
 | exp002 | UNet + ILP | Public artifact model with threshold 0.99 and ILP linking |
-| exp003 | More nodes | Lower threshold and smaller non-maximum suppression radius |
-| exp004 | Conservative | Higher threshold and larger suppression radius |
-| exp005 | Link12 | Wider physical linking gate with gap closing enabled |
+| exp003 | UNet + ILP geometry prune | Threshold 0.995, division weight 0.8, geometry cleanup |
+| exp004 | UNet + ILP raw081 | Threshold 0.995, division weight 0.8, no geometry cleanup |
+| exp005 | UNet + ILP mild prune | Threshold 0.995, division weight 0.8, milder division cleanup |
 
 ## Validation
 
