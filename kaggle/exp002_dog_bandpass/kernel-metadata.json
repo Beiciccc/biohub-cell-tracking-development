@@ -1,5 +1,5 @@
 {
-  "id": "beicicc/biohub-celltrack-exp002-dog-bandpass",
+  "id": "beicicc/biohub-cell-tracking-exp002-dog-bandpass",
   "title": "Biohub Cell Tracking Exp002 DoG Bandpass",
   "code_file": "biohub-exp002-dog-bandpass.ipynb",
   "language": "python",
