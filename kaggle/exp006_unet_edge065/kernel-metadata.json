@@ -1,0 +1,23 @@
+{
+  "id": "beicicc/biohub-cell-tracking-exp006-unet-edge065",
+  "title": "Biohub Cell Tracking Exp006 UNet Edge 065",
+  "code_file": "biohub-exp006-unet-edge065.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "thibautgoldsborough/cellmot-baseline-artifacts"
+  ],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57e612b484cf3df5026ee4dcc3cb176974b22b2bc0937fb1e16132a8be4cb13c",
+  "machine_shape": "NvidiaTeslaT4"
+}
