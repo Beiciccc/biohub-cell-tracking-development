@@ -14,3 +14,4 @@ with five remaining daily submissions in the official submission table.
 | exp004 | `beicicc/biohub-cell-tracking-exp004-unet-raw081` | UNet + ILP, threshold 0.995, division weight 0.8, edge weight -0.8, geometry cleanup | complete | 0.818 | Tests lower edge reward |
 | exp005 | `beicicc/biohub-cell-tracking-exp005-unet-mild-prune` | UNet + ILP, threshold 0.995, division weight 0.8, edge weight -0.5, geometry cleanup | complete | 0.818 | Tests still lower edge reward |
 | exp006-rule | `beicicc/biohub-cell-tracking-exp006-rule-safe-div` | Rule-based blob detector with conservative safe division recovery | complete | 0.839 | Ref 54251148; new best public score |
+| exp006-edge065 | `beicicc/biohub-cell-tracking-exp006-unet-edge065` | UNet + ILP, threshold 0.995, division weight 0.8, edge weight -0.65, geometry cleanup | pending | pending | Ref 54251540; awaiting public score |

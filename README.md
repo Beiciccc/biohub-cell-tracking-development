@@ -9,7 +9,7 @@ with node rows for cell centers and edge rows for temporal links.
 
 ## Repository Contents
 
-- `kaggle/`: Kaggle notebook entries used for submitted experiments.
+- `kaggle/`: Kaggle notebook and script entries used for submitted experiments.
 - `scripts/validate_submission.py`: structural validation for generated
   submission files.
 - `docs/experiment_log.md`: submitted runs and leaderboard results.
@@ -19,7 +19,7 @@ are intentionally excluded from the public repository.
 
 ## Current Experiments
 
-The first batch uses classical 3D peak detection and physical-distance linking:
+Submitted experiments cover classical, UNet-based, and rule-based tracking:
 
 | Experiment | Method | Main change |
 |---|---|---|
@@ -29,6 +29,7 @@ The first batch uses classical 3D peak detection and physical-distance linking:
 | exp004 | UNet + ILP edge -0.8 | Threshold 0.995, division weight 0.8, geometry cleanup |
 | exp005 | UNet + ILP edge -0.5 | Threshold 0.995, division weight 0.8, geometry cleanup |
 | exp006-rule | Rule-based safe division recovery | Blob detector baseline with guarded high-confidence division edges |
+| exp006-edge065 | UNet + ILP edge -0.65 | Threshold 0.995, division weight 0.8, edge weight -0.65 |
 
 ## Validation
 
