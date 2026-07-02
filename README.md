@@ -28,6 +28,7 @@ The first batch uses classical 3D peak detection and physical-distance linking:
 | exp003 | UNet + ILP geometry prune | Threshold 0.995, division weight 0.8, geometry cleanup |
 | exp004 | UNet + ILP edge -0.8 | Threshold 0.995, division weight 0.8, geometry cleanup |
 | exp005 | UNet + ILP edge -0.5 | Threshold 0.995, division weight 0.8, geometry cleanup |
+| exp006-rule | Rule-based safe division recovery | Blob detector baseline with guarded high-confidence division edges |
 
 ## Validation
 
