@@ -30,6 +30,9 @@ Submitted experiments cover classical, UNet-based, and rule-based tracking:
 | exp005 | UNet + ILP edge -0.5 | Threshold 0.995, division weight 0.8, geometry cleanup |
 | exp006-rule | Rule-based safe division recovery | Blob detector baseline with guarded high-confidence division edges |
 | exp006-edge065 | UNet + ILP edge -0.65 | Threshold 0.995, division weight 0.8, edge weight -0.65 |
+| exp007 | Rule-based safe-plus | Runtime exceeded during submission scoring |
+| exp008 | Rule-based safe-tiny | Runtime exceeded during submission scoring |
+| exp010 | Rule-based fast safe-plus | Runtime-safe safe division widening |
 
 ## Validation
 
