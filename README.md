@@ -35,6 +35,7 @@ Submitted experiments cover classical, UNet-based, and rule-based tracking:
 | exp010 | Rule-based fast safe-plus | Runtime-safe safe division widening |
 | exp016 | Public CV6 rule baseline | Two-pass velocity linking with gap closing and short-track filtering |
 | exp017 | Public CV6 link 8.5 | Single-parameter wider loose link gate |
+| exp018 | Public CV6 gap 5.5 | Tighter one-frame gap-closing distance |
 
 ## Validation
 
