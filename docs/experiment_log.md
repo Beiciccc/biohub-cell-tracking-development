@@ -22,7 +22,7 @@ table.
 | exp010 | `beicicc/biohub-cell-tracking-exp010-rule-fast-safe-plus` | Fast rule-based safe division widening without slow gap-closing variant | complete | 0.839 | Ref 54274155; ties current best |
 | exp016 | `beicicc/biohub-cell-tracking-exp016-hosen-cv6` | Public CV6 rule baseline with two-pass velocity linking, one-frame gap closing, and short-track filtering | complete | 0.842 | Ref 54292435; new best public score; visible run 225,701 rows in 84.9 seconds |
 | exp017 | `beicicc/biohub-cell-tracking-exp017-hosen-cv6-link85` | Public CV6 with loose link gate widened from 8.0 to 8.5 um | complete | 0.842 | Ref 54294439; ties current best; visible run 225,574 rows in 94.9 seconds |
-| exp018 | `beicicc/biohub-cell-tracking-exp018-hosen-cv6-gap55` | Public CV6 with one-frame gap-closing distance tightened from 6.0 to 5.5 um | pending | pending | Ref 54296135; visible run 223,906 rows in 89.5 seconds |
+| exp018 | `beicicc/biohub-cell-tracking-exp018-hosen-cv6-gap55` | Public CV6 with one-frame gap-closing distance tightened from 6.0 to 5.5 um | complete | 0.843 | Ref 54296135; new best public score; visible run 223,906 rows in 89.5 seconds |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
