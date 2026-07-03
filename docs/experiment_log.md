@@ -24,7 +24,7 @@ table.
 | exp017 | `beicicc/biohub-cell-tracking-exp017-hosen-cv6-link85` | Public CV6 with loose link gate widened from 8.0 to 8.5 um | complete | 0.842 | Ref 54294439; ties current best; visible run 225,574 rows in 94.9 seconds |
 | exp018 | `beicicc/biohub-cell-tracking-exp018-hosen-cv6-gap55` | Public CV6 with one-frame gap-closing distance tightened from 6.0 to 5.5 um | complete | 0.843 | Ref 54296135; new best public score; visible run 223,906 rows in 89.5 seconds |
 | exp021 | `beicicc/biohub-cell-tracking-exp021-hosen-cv6-gap525` | Public CV6 with one-frame gap-closing distance tightened further to 5.25 um | complete | 0.844 | Ref 54298117; new best public score; visible run 223,084 rows in 94.8 seconds |
-| exp022 | `beicicc/biohub-cell-tracking-exp022-hosen-cv6-gap50` | Public CV6 with one-frame gap-closing distance tightened further to 5.0 um | pending | pending | Ref 54299703; visible run 222,098 rows in 104.1 seconds |
+| exp022 | `beicicc/biohub-cell-tracking-exp022-hosen-cv6-gap50` | Public CV6 with one-frame gap-closing distance tightened further to 5.0 um | complete | 0.844 | Ref 54299703; ties current best; visible run 222,098 rows in 104.1 seconds |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
