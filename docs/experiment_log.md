@@ -4,7 +4,9 @@ Competition: Biohub - Cell Tracking During Development
 
 Daily submission budget checked on 2026-07-01: 5 submissions. The official
 submission list was empty before the first batch. The 2026-07-02 batch started
-with five remaining daily submissions in the official submission table.
+with five remaining daily submissions in the official submission table. The
+2026-07-03 batch started with zero same-day rows in the official submission
+table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -18,6 +20,7 @@ with five remaining daily submissions in the official submission table.
 | exp007 | `beicicc/biohub-cell-tracking-exp007-rule-safe-plus` | Rule-based safe division variant with gap closing | complete | runtime exceeded | Ref 54255298; no public score returned |
 | exp008 | `beicicc/biohub-cell-tracking-exp008-rule-safe-tiny` | Rule-based tighter safe division variant with gap closing | complete | runtime exceeded | Ref 54255299; no public score returned |
 | exp010 | `beicicc/biohub-cell-tracking-exp010-rule-fast-safe-plus` | Fast rule-based safe division widening without slow gap-closing variant | complete | 0.839 | Ref 54274155; ties current best |
+| exp016 | `beicicc/biohub-cell-tracking-exp016-hosen-cv6` | Public CV6 rule baseline with two-pass velocity linking, one-frame gap closing, and short-track filtering | pending | pending | Ref 54292435; visible run 225,701 rows in 84.9 seconds |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
