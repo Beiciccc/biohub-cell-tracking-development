@@ -39,6 +39,7 @@ Submitted experiments cover classical, UNet-based, and rule-based tracking:
 | exp021 | Public CV6 gap 5.25 | Further tightened one-frame gap-closing distance |
 | exp022 | Public CV6 gap 5.0 | Most restrictive tested one-frame gap-closing distance |
 | exp023 | Rule-based v10 | Multi-scale DoG tracking with line smoothing, two-frame gap recovery, and safe division edges |
+| exp024 | Rule-based v10 threshold 0.032 | Slightly higher DoG relative threshold to reduce weak false peaks |
 
 ## Validation
 

@@ -1,0 +1,19 @@
+{
+  "id": "beicicc/biohub-cell-tracking-exp024-yunus-v10-thr032",
+  "title": "Biohub Cell Tracking Exp024 Yunus V10 Thr032",
+  "code_file": "biohub-exp024-yunus-v10-thr032.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "kernel_sources": [],
+  "model_sources": [],
+  "machine_shape": "None"
+}
