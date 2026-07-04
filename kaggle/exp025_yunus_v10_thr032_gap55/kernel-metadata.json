@@ -1,0 +1,19 @@
+{
+  "id": "beicicc/biohub-cell-tracking-exp025-yunus-v10-thr032-gap55",
+  "title": "Biohub Cell Tracking Exp025 Yunus V10 Thr032 Gap55",
+  "code_file": "biohub-exp025-yunus-v10-thr032-gap55.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "competition_sources": [
+    "biohub-cell-tracking-during-development"
+  ],
+  "kernel_sources": [],
+  "model_sources": [],
+  "machine_shape": "None"
+}

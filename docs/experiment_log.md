@@ -27,6 +27,7 @@ official submission table.
 | exp022 | `beicicc/biohub-cell-tracking-exp022-hosen-cv6-gap50` | Public CV6 with one-frame gap-closing distance tightened further to 5.0 um | complete | 0.844 | Ref 54299703; ties current best; visible run 222,098 rows in 104.1 seconds |
 | exp023 | `beicicc/biohub-cell-tracking-exp023-yunus-v10` | Rule-based v10 with multi-scale DoG detection, line smoothing, two-frame gap recovery, and safe division edges | complete | 0.858 | Ref 54317389; new best public score; visible run 244,948 rows in 170 seconds |
 | exp024 | `beicicc/biohub-cell-tracking-exp024-yunus-v10-thr032` | Rule-based v10 with relative DoG threshold raised from 0.030 to 0.032 | complete | 0.859 | Ref 54320504; new best public score; visible run 243,716 rows in 130 seconds |
+| exp025 | `beicicc/biohub-cell-tracking-exp025-yunus-v10-thr032-gap55` | Rule-based v10 with relative DoG threshold 0.032 and one-frame gap-closing distance tightened to 5.5 um | complete | 0.860 | Ref 54324365; new best public score; visible run 242,455 rows in 157 seconds |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
