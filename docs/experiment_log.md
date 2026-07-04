@@ -29,6 +29,7 @@ official submission table.
 | exp024 | `beicicc/biohub-cell-tracking-exp024-yunus-v10-thr032` | Rule-based v10 with relative DoG threshold raised from 0.030 to 0.032 | complete | 0.859 | Ref 54320504; new best public score; visible run 243,716 rows in 130 seconds |
 | exp025 | `beicicc/biohub-cell-tracking-exp025-yunus-v10-thr032-gap55` | Rule-based v10 with relative DoG threshold 0.032 and one-frame gap-closing distance tightened to 5.5 um | complete | 0.860 | Ref 54324365; new best public score; visible run 242,455 rows in 157 seconds |
 | exp026 | `beicicc/biohub-exp026-v10-thr032-gap525` | Rule-based v10 with relative DoG threshold 0.032 and one-frame gap-closing distance tightened to 5.25 um | complete | 0.860 | Ref 54327166; ties current best public score; visible run 241,955 rows in 159 seconds |
+| exp027 | `beicicc/biohub-exp027-v10-thr033-gap55` | Rule-based v10 with relative DoG threshold raised to 0.033 and one-frame gap-closing distance kept at 5.5 um | complete | 0.860 | Ref 54329789; ties current best public score; visible run 241,712 rows in 150 seconds |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use

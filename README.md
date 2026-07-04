@@ -42,6 +42,7 @@ Submitted experiments cover classical, UNet-based, and rule-based tracking:
 | exp024 | Rule-based v10 threshold 0.032 | Slightly higher DoG relative threshold to reduce weak false peaks |
 | exp025 | Rule-based v10 threshold 0.032 gap 5.5 | Tighter one-frame gap-closing distance on the threshold 0.032 v10 tracker |
 | exp026 | Rule-based v10 threshold 0.032 gap 5.25 | Further tightened one-frame gap-closing distance on the threshold 0.032 v10 tracker |
+| exp027 | Rule-based v10 threshold 0.033 gap 5.5 | Higher DoG relative threshold on the 5.5 um gap-distance v10 tracker |
 
 ## Validation
 
