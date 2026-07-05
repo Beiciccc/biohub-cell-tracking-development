@@ -46,6 +46,7 @@ graph tracking:
 | exp027 | Rule-based v10 threshold 0.033 gap 5.5 | Higher DoG relative threshold on the 5.5 um gap-distance v10 tracker |
 | exp028 | Learned graph tracker | GPU learned-edge model with ILP linking and conservative edge-consensus pruning |
 | exp029 | Learned graph tracker prune50 | More conservative edge-consensus preset on the exp028 learned graph pipeline |
+| exp030 | Learned graph tracker prune40 | Latest conservative edge-consensus preset from the learned graph pipeline |
 
 ## Validation
 
