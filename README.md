@@ -19,7 +19,8 @@ are intentionally excluded from the public repository.
 
 ## Current Experiments
 
-Submitted experiments cover classical, UNet-based, and rule-based tracking:
+Submitted experiments cover classical, UNet-based, rule-based, and learned
+graph tracking:
 
 | Experiment | Method | Main change |
 |---|---|---|
@@ -43,6 +44,7 @@ Submitted experiments cover classical, UNet-based, and rule-based tracking:
 | exp025 | Rule-based v10 threshold 0.032 gap 5.5 | Tighter one-frame gap-closing distance on the threshold 0.032 v10 tracker |
 | exp026 | Rule-based v10 threshold 0.032 gap 5.25 | Further tightened one-frame gap-closing distance on the threshold 0.032 v10 tracker |
 | exp027 | Rule-based v10 threshold 0.033 gap 5.5 | Higher DoG relative threshold on the 5.5 um gap-distance v10 tracker |
+| exp028 | Learned graph tracker | GPU learned-edge model with ILP linking and conservative edge-consensus pruning |
 
 ## Validation
 

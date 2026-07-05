@@ -5,8 +5,8 @@ Competition: Biohub - Cell Tracking During Development
 Daily submission budget checked on 2026-07-01: 5 submissions. The official
 submission list was empty before the first batch. The 2026-07-02 batch started
 with five remaining daily submissions in the official submission table. The
-2026-07-03 and 2026-07-04 batches started with zero same-day rows in the
-official submission table.
+2026-07-03, 2026-07-04, and 2026-07-05 batches started with zero same-day rows
+in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -30,6 +30,7 @@ official submission table.
 | exp025 | `beicicc/biohub-cell-tracking-exp025-yunus-v10-thr032-gap55` | Rule-based v10 with relative DoG threshold 0.032 and one-frame gap-closing distance tightened to 5.5 um | complete | 0.860 | Ref 54324365; new best public score; visible run 242,455 rows in 157 seconds |
 | exp026 | `beicicc/biohub-exp026-v10-thr032-gap525` | Rule-based v10 with relative DoG threshold 0.032 and one-frame gap-closing distance tightened to 5.25 um | complete | 0.860 | Ref 54327166; ties current best public score; visible run 241,955 rows in 159 seconds |
 | exp027 | `beicicc/biohub-exp027-v10-thr033-gap55` | Rule-based v10 with relative DoG threshold raised to 0.033 and one-frame gap-closing distance kept at 5.5 um | complete | 0.860 | Ref 54329789; ties current best public score; visible run 241,712 rows in 150 seconds |
+| exp028 | `beicicc/biohub-exp028-yusuke-lb873-repro` | GPU learned-edge tracker with ILP linking and conservative edge-consensus pruning | complete | 0.884 | Ref 54356057; new best public score; visible run 283,675 rows with 145,367 nodes and 138,308 edges; prediction stage 6.71 minutes |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
