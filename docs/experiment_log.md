@@ -31,6 +31,7 @@ in the official submission table.
 | exp026 | `beicicc/biohub-exp026-v10-thr032-gap525` | Rule-based v10 with relative DoG threshold 0.032 and one-frame gap-closing distance tightened to 5.25 um | complete | 0.860 | Ref 54327166; ties current best public score; visible run 241,955 rows in 159 seconds |
 | exp027 | `beicicc/biohub-exp027-v10-thr033-gap55` | Rule-based v10 with relative DoG threshold raised to 0.033 and one-frame gap-closing distance kept at 5.5 um | complete | 0.860 | Ref 54329789; ties current best public score; visible run 241,712 rows in 150 seconds |
 | exp028 | `beicicc/biohub-exp028-yusuke-lb873-repro` | GPU learned-edge tracker with ILP linking and conservative edge-consensus pruning | complete | 0.884 | Ref 54356057; new best public score; visible run 283,675 rows with 145,367 nodes and 138,308 edges; prediction stage 6.71 minutes |
+| exp029 | `beicicc/biohub-exp029-lb884-prune50` | GPU learned-edge tracker with the more conservative ultra-tiny prune50 preset | complete | 0.885 | Ref 54363595; new best public score; visible run 270,404 rows with 138,478 nodes and 131,926 edges; prediction stage 6.75 minutes |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
