@@ -34,6 +34,7 @@ in the official submission table.
 | exp029 | `beicicc/biohub-exp029-lb884-prune50` | GPU learned-edge tracker with the more conservative ultra-tiny prune50 preset | complete | 0.885 | Ref 54363595; new best public score; visible run 270,404 rows with 138,478 nodes and 131,926 edges; prediction stage 6.75 minutes |
 | exp030 | `beicicc/biohub-exp030-lb884-prune40` | GPU learned-edge tracker with the latest conservative prune40 preset | complete | 0.885 | Ref 54370950; ties current best public score; visible run 270,404 rows with 138,478 nodes and 131,926 edges; prediction stage 6.17 minutes |
 | exp031 | `beicicc/biohub-exp031-pilkwang-precision-repair` | Pilkwang learned graph precision-repair branch with detection threshold 0.992 | complete | 0.884 | Ref 54375624; below current best; visible run 266,902 rows with 136,859 nodes and 130,043 edges; prediction stage 6.61 minutes |
+| exp032 | `beicicc/biohub-exp032-pilkwang-recall-clean` | Pilkwang learned graph recall-clean branch with detection threshold 0.985 and two-step gap recovery | complete | 0.888 | Ref 54380857; new best public score; visible run 276,082 rows with 141,328 nodes and 134,754 edges; prediction stage 6.13 minutes |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
