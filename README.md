@@ -47,6 +47,7 @@ graph tracking:
 | exp028 | Learned graph tracker | GPU learned-edge model with ILP linking and conservative edge-consensus pruning |
 | exp029 | Learned graph tracker prune50 | More conservative edge-consensus preset on the exp028 learned graph pipeline |
 | exp030 | Learned graph tracker prune40 | Latest conservative edge-consensus preset from the learned graph pipeline |
+| exp031 | Pilkwang precision repair | Independent learned graph precision-repair branch with threshold 0.992 |
 
 ## Validation
 
