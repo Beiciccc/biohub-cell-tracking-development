@@ -50,6 +50,7 @@ graph tracking:
 | exp031 | Pilkwang precision repair | Independent learned graph precision-repair branch with threshold 0.992 |
 | exp032 | Pilkwang recall clean | Recall-oriented learned graph branch with threshold 0.985 and two-step gap recovery |
 | exp033 | Yusuke score push | Learned graph branch with threshold 0.99, gap recovery, and tightened division caps |
+| exp034 | Yusuke safe division precision | Score-push learned graph branch with slightly tighter safe-division gates |
 
 ## Validation
 
