@@ -6,7 +6,8 @@ Daily submission budget checked on 2026-07-01: 5 submissions. The official
 submission list was empty before the first batch. The 2026-07-02 batch started
 with five remaining daily submissions in the official submission table. The
 2026-07-03, 2026-07-04, and 2026-07-05 batches started with zero same-day rows
-in the official submission table.
+in the official submission table. The 2026-07-06 batch started with one
+same-day row already present in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -35,6 +36,7 @@ in the official submission table.
 | exp030 | `beicicc/biohub-exp030-lb884-prune40` | GPU learned-edge tracker with the latest conservative prune40 preset | complete | 0.885 | Ref 54370950; ties current best public score; visible run 270,404 rows with 138,478 nodes and 131,926 edges; prediction stage 6.17 minutes |
 | exp031 | `beicicc/biohub-exp031-pilkwang-precision-repair` | Pilkwang learned graph precision-repair branch with detection threshold 0.992 | complete | 0.884 | Ref 54375624; below current best; visible run 266,902 rows with 136,859 nodes and 130,043 edges; prediction stage 6.61 minutes |
 | exp032 | `beicicc/biohub-exp032-pilkwang-recall-clean` | Pilkwang learned graph recall-clean branch with detection threshold 0.985 and two-step gap recovery | complete | 0.888 | Ref 54380857; new best public score; visible run 276,082 rows with 141,328 nodes and 134,754 edges; prediction stage 6.13 minutes |
+| exp033 | `beicicc/biohub-exp033-yusuke-score-push` | Yusuke learned graph score-push branch with detection threshold 0.99, gap recovery, and tightened division caps | complete | 0.893 | Ref 54387185; new best public score; visible run 262,385 rows with 134,239 nodes and 128,146 edges; prediction stage 6.43 minutes |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
