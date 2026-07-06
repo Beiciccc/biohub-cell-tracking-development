@@ -38,6 +38,7 @@ same-day row already present in the official submission table.
 | exp032 | `beicicc/biohub-exp032-pilkwang-recall-clean` | Pilkwang learned graph recall-clean branch with detection threshold 0.985 and two-step gap recovery | complete | 0.888 | Ref 54380857; new best public score; visible run 276,082 rows with 141,328 nodes and 134,754 edges; prediction stage 6.13 minutes |
 | exp033 | `beicicc/biohub-exp033-yusuke-score-push` | Yusuke learned graph score-push branch with detection threshold 0.99, gap recovery, and tightened division caps | complete | 0.893 | Ref 54387185; new best public score; visible run 262,385 rows with 134,239 nodes and 128,146 edges; prediction stage 6.43 minutes |
 | exp034 | `beicicc/biohub-exp034-yusuke-safe-div-precision` | Yusuke score-push branch with tighter safe-division geometry caps | complete | 0.893 | Ref 54393983; ties current best public score; visible run 262,359 rows with 134,238 nodes and 128,121 edges; prediction stage 6.30 minutes |
+| exp035 | `beicicc/biohub-exp035-vmerckle-pass-rescue` | Vmerckle learned graph branch with learned motion relinking prepass and rescue edges | complete | 0.893 | Ref 54401907; ties current best public score; visible run 262,385 rows with 134,220 nodes and 128,165 edges; prediction stage 6.32 minutes |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
