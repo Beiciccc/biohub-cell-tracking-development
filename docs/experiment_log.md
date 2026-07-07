@@ -40,6 +40,7 @@ same-day row already present in the official submission table.
 | exp034 | `beicicc/biohub-exp034-yusuke-safe-div-precision` | Yusuke score-push branch with tighter safe-division geometry caps | complete | 0.893 | Ref 54393983; ties current best public score; visible run 262,359 rows with 134,238 nodes and 128,121 edges; prediction stage 6.30 minutes |
 | exp035 | `beicicc/biohub-exp035-vmerckle-pass-rescue` | Vmerckle learned graph branch with learned motion relinking prepass and rescue edges | complete | 0.893 | Ref 54401907; ties current best public score; visible run 262,385 rows with 134,220 nodes and 128,165 edges; prediction stage 6.32 minutes |
 | exp036 | `beicicc/biohub-exp036-vmerckle-altunet-divseed` | Vmerckle pass-rescue branch with motion relinking division-seed candidates | complete | 0.893 | Ref 54407572; ties current best public score; visible run 262,381 rows with 134,217 nodes and 128,164 edges; prediction stage 6.51 minutes; 30 motion division-seed edges |
+| exp037 | `beicicc/biohub-exp037-yusuke-lb897-min7-short-track` | Yusuke learned graph branch with short-track filtering increased to min length 7 | complete | 0.897 | Ref 54432797; new best public score; visible run 248,558 rows with 126,379 nodes and 122,179 edges; prediction stage 6.25 minutes; removed 7,465 short-track nodes and 5,307 short-track edges |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
