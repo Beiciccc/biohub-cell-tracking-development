@@ -52,6 +52,7 @@ graph tracking:
 | exp033 | Yusuke score push | Learned graph branch with threshold 0.99, gap recovery, and tightened division caps |
 | exp034 | Yusuke safe division precision | Score-push learned graph branch with slightly tighter safe-division gates |
 | exp035 | Vmerckle pass rescue | Learned graph branch with learned motion relinking prepass and rescue edges |
+| exp036 | Vmerckle altunet divseed | Pass-rescue branch with motion relinking division-seed candidates |
 
 ## Validation
 
