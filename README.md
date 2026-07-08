@@ -56,6 +56,7 @@ graph tracking:
 | exp037 | Yusuke LB897 min7 short-track filter | Learned graph branch with stronger short-track false-positive pruning |
 | exp038 | Pilkwang blend preprocessings | Learned graph branch with DeepCenter full-frame center prior and min6 short-track filtering |
 | exp039 | Yusuke min8 short-track filter | Stronger short-track pruning ablation on the exp037 branch |
+| exp040 | Vmerckle linefit skip division edges | Motion-relink branch with two-frame gap recovery, linefit smoothing, and conservative division-edge filtering |
 
 ## Validation
 
