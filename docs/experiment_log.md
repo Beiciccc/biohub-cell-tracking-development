@@ -7,7 +7,8 @@ submission list was empty before the first batch. The 2026-07-02 batch started
 with five remaining daily submissions in the official submission table. The
 2026-07-03, 2026-07-04, and 2026-07-05 batches started with zero same-day rows
 in the official submission table. The 2026-07-06 batch started with one
-same-day row already present in the official submission table.
+same-day row already present in the official submission table. The 2026-07-07
+batch started with zero same-day rows in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -41,6 +42,7 @@ same-day row already present in the official submission table.
 | exp035 | `beicicc/biohub-exp035-vmerckle-pass-rescue` | Vmerckle learned graph branch with learned motion relinking prepass and rescue edges | complete | 0.893 | Ref 54401907; ties current best public score; visible run 262,385 rows with 134,220 nodes and 128,165 edges; prediction stage 6.32 minutes |
 | exp036 | `beicicc/biohub-exp036-vmerckle-altunet-divseed` | Vmerckle pass-rescue branch with motion relinking division-seed candidates | complete | 0.893 | Ref 54407572; ties current best public score; visible run 262,381 rows with 134,217 nodes and 128,164 edges; prediction stage 6.51 minutes; 30 motion division-seed edges |
 | exp037 | `beicicc/biohub-exp037-yusuke-lb897-min7-short-track` | Yusuke learned graph branch with short-track filtering increased to min length 7 | complete | 0.897 | Ref 54432797; new best public score; visible run 248,558 rows with 126,379 nodes and 122,179 edges; prediction stage 6.25 minutes; removed 7,465 short-track nodes and 5,307 short-track edges |
+| exp038 | `beicicc/biohub-exp038-pilkwang-blend-default` | Pilkwang learned graph branch with DeepCenter full-frame center prior and min6 short-track filtering | complete | 0.897 | Ref 54439274; ties current best public score; visible run 251,664 rows with 128,072 nodes and 123,592 edges; prediction stage 6.32 minutes; added 12 full-frame center nodes, 2,119 gap nodes, and 423 safe-division edges |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
