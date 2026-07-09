@@ -53,6 +53,7 @@ submission table.
 | exp044 | `beicicc/biohub-exp044-pilkwang-conservative-min8` | Pilkwang latest blend branch with stricter min8 short-track pruning and gap2 disabled | complete | 0.890 | Ref 54482138; below current best; visible run 235,824 rows with 119,872 nodes and 115,952 edges; prediction stage 6.52 minutes; removed 9,906 short-track nodes and 7,309 short-track edges |
 | exp046c | `beicicc/biohub-exp046c-rahul-rj4-pathfix` | Rahul DeepCenter sparse-gate branch with corrected Kaggle checkpoint mount | complete | 0.889 | Ref 54488437; below current best; visible run 239,697 rows with 121,923 nodes and 117,774 edges; prediction stage 6.69 minutes; added 4 full-frame center nodes and removed 7,939 short-track nodes |
 | exp048 | `beicicc/biohub-exp048-tamerlan-gap-recovery` | Learned graph min6 pruning branch with additional gap recovery | complete | 0.892 | Ref 54496234; below current best; visible run 257,351 rows with 131,022 nodes and 126,329 edges; prediction stage 6.61 minutes; added 2,208 gap nodes and 413 safe-division edges |
+| exp050 | `beicicc/biohub-exp050-boris-min6` | Learned graph min6 branch with tighter division guards | complete | 0.887 | Ref 54503491; below current best; visible run 242,895 rows with 123,689 nodes and 119,206 edges; prediction stage 7.06 minutes; added 2,270 gap nodes and 340 safe-division edges |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
