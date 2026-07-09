@@ -60,6 +60,7 @@ graph tracking:
 | exp043 | Yusuke dataset min-track recall | Dataset-specific short-track recall restoration on the exp037 branch |
 | exp044 | Pilkwang conservative min8 | Latest public blend branch with stricter min8 short-track pruning |
 | exp046c | Rahul sparse gate pathfix | DeepCenter sparse-gate branch with corrected Kaggle checkpoint mount |
+| exp048 | Tamerlan gap recovery | Learned graph branch with min6 pruning and additional gap recovery |
 
 ## Validation
 
