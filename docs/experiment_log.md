@@ -11,6 +11,8 @@ same-day row already present in the official submission table. The 2026-07-07
 batch started with zero same-day rows in the official submission table.
 The 2026-07-08 batch started with one same-day row already present in the
 official submission table.
+The 2026-07-09 batch started with zero same-day rows in the official
+submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -48,6 +50,7 @@ official submission table.
 | exp039 | `beicicc/biohub-exp039-yusuke-min8-short-track` | Yusuke learned graph branch with short-track filtering increased to min length 8 | complete | 0.896 | Ref 54444702; below current best; visible run 245,386 rows with 124,671 nodes and 120,715 edges; prediction stage 7.06 minutes; removed 9,173 short-track nodes and 6,771 short-track edges |
 | exp040 | `beicicc/biohub-exp040-vmerckle-linefit-skip-div-edges` | Vmerckle learned graph branch with linefit smoothing, two-frame gap recovery, and conservative division-edge filtering | complete | 0.893 | Ref 54458011; below current best; visible run 261,385 rows with 134,051 nodes and 127,334 edges; prediction stage 6.80 minutes; added 406 two-frame gap nodes and 445 safe-division edges |
 | exp043 | `beicicc/biohub-exp043-yusuke-dataset-mintrack-recall` | Yusuke learned graph branch with dataset-specific short-track recall restoration | complete | 0.892 | Ref 54466209; below current best; visible run 269,435 rows with 137,079 nodes and 132,356 edges; prediction stage 6.86 minutes; removed 7,583 short-track nodes and 5,448 short-track edges |
+| exp044 | `beicicc/biohub-exp044-pilkwang-conservative-min8` | Pilkwang latest blend branch with stricter min8 short-track pruning and gap2 disabled | complete | 0.890 | Ref 54482138; below current best; visible run 235,824 rows with 119,872 nodes and 115,952 edges; prediction stage 6.52 minutes; removed 9,906 short-track nodes and 7,309 short-track edges |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use

@@ -58,6 +58,7 @@ graph tracking:
 | exp039 | Yusuke min8 short-track filter | Stronger short-track pruning ablation on the exp037 branch |
 | exp040 | Vmerckle linefit skip division edges | Motion-relink branch with two-frame gap recovery, linefit smoothing, and conservative division-edge filtering |
 | exp043 | Yusuke dataset min-track recall | Dataset-specific short-track recall restoration on the exp037 branch |
+| exp044 | Pilkwang conservative min8 | Latest public blend branch with stricter min8 short-track pruning |
 
 ## Validation
 
