@@ -63,6 +63,7 @@ graph tracking:
 | exp048 | Tamerlan gap recovery | Learned graph branch with min6 pruning and additional gap recovery |
 | exp049 | KHJ vel0 min6 | High-confidence min6 branch with velocity-free motion relinking |
 | exp050 | Boris min6 precision guard | Learned graph min6 branch with tighter division guards |
+| exp052 | Abhijith V74 D4 | 400-epoch learned graph branch with full D4 detection TTA, threshold 0.97, and min6 pruning |
 
 ## Validation
 

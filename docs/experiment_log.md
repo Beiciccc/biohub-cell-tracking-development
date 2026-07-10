@@ -13,6 +13,8 @@ The 2026-07-08 batch started with one same-day row already present in the
 official submission table.
 The 2026-07-09 batch started with zero same-day rows in the official
 submission table.
+The 2026-07-10 batch started with zero same-day rows in the official
+submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -55,6 +57,7 @@ submission table.
 | exp048 | `beicicc/biohub-exp048-tamerlan-gap-recovery` | Learned graph min6 pruning branch with additional gap recovery | complete | 0.892 | Ref 54496234; below current best; visible run 257,351 rows with 131,022 nodes and 126,329 edges; prediction stage 6.61 minutes; added 2,208 gap nodes and 413 safe-division edges |
 | exp049 | `beicicc/biohub-exp049-khj-vel0-min6` | High-confidence min6 branch with velocity-free motion relinking | complete | 0.889 | Ref 54508141; below current best; visible run 242,870 rows with 123,666 nodes and 119,204 edges; prediction stage 6.89 minutes; added 2,113 gap nodes and 376 safe-division edges |
 | exp050 | `beicicc/biohub-exp050-boris-min6` | Learned graph min6 branch with tighter division guards | complete | 0.887 | Ref 54503491; below current best; visible run 242,895 rows with 123,689 nodes and 119,206 edges; prediction stage 7.06 minutes; added 2,270 gap nodes and 340 safe-division edges |
+| exp052 | `beicicc/biohub-exp052-abhijith-v74-d4` | 400-epoch learned graph branch with full D4 detection TTA, threshold 0.97, and min6 pruning | complete | 0.900 | Ref 54522943; new best public score; visible run 252,523 rows with 128,535 nodes and 123,988 edges; prediction stage 10.47 minutes; added 2,068 gap nodes and 392 safe-division edges |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
