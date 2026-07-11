@@ -65,6 +65,7 @@ graph tracking:
 | exp050 | Boris min6 precision guard | Learned graph min6 branch with tighter division guards |
 | exp052 | Abhijith V74 D4 | 400-epoch learned graph branch with full D4 detection TTA, threshold 0.97, and min6 pruning |
 | exp053 | Pilkwang V21 adaptive rescue | Exp052 graph anchor with conditional high-confidence short-track recovery |
+| exp054 | Pilkwang V23 precision 0.9725 | Exp052 graph anchor with detection threshold raised from 0.9700 to 0.9725 |
 
 ## Validation
 

@@ -59,6 +59,7 @@ submission table.
 | exp050 | `beicicc/biohub-exp050-boris-min6` | Learned graph min6 branch with tighter division guards | complete | 0.887 | Ref 54503491; below current best; visible run 242,895 rows with 123,689 nodes and 119,206 edges; prediction stage 7.06 minutes; added 2,270 gap nodes and 340 safe-division edges |
 | exp052 | `beicicc/biohub-exp052-abhijith-v74-d4` | 400-epoch learned graph branch with full D4 detection TTA, threshold 0.97, and min6 pruning | complete | 0.900 | Ref 54522943; new best public score; visible run 252,523 rows with 128,535 nodes and 123,988 edges; prediction stage 10.47 minutes; added 2,068 gap nodes and 392 safe-division edges |
 | exp053 | `beicicc/biohub-exp053-pilkwang-v21-rescue` | Exp052 graph anchor with conditional high-confidence short-track recovery when pruning is unusually severe | complete | 0.900 | Ref 54533859; ties current best; visible run 252,842 rows with 128,715 nodes and 124,127 edges; rescue triggered on one dataset and restored 41 components with 180 nodes |
+| exp054 | `beicicc/biohub-exp054-pilkwang-v23-precision-9725` | Exp052 graph anchor with detection threshold raised from 0.9700 to 0.9725 while graph constraints remain fixed | complete | 0.899 | Ref 54553760; 0.001 below current best; visible run 251,670 rows with 128,106 nodes and 123,564 edges; prediction stage 10.85 minutes; removed 429 nodes and 424 edges relative to exp052 |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
