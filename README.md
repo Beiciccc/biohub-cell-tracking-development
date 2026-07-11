@@ -66,6 +66,7 @@ graph tracking:
 | exp052 | Abhijith V74 D4 | 400-epoch learned graph branch with full D4 detection TTA, threshold 0.97, and min6 pruning |
 | exp053 | Pilkwang V21 adaptive rescue | Exp052 graph anchor with conditional high-confidence short-track recovery |
 | exp054 | Pilkwang V23 precision 0.9725 | Exp052 graph anchor with detection threshold raised from 0.9700 to 0.9725 |
+| exp056 | Conservative division prior 0.9 | Exp052 graph anchor with the ILP division prior lowered from 1.0 to 0.9 |
 
 ## Validation
 
