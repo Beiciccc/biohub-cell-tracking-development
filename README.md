@@ -67,6 +67,7 @@ graph tracking:
 | exp053 | Pilkwang V21 adaptive rescue | Exp052 graph anchor with conditional high-confidence short-track recovery |
 | exp054 | Pilkwang V23 precision 0.9725 | Exp052 graph anchor with detection threshold raised from 0.9700 to 0.9725 |
 | exp056 | Conservative division prior 0.9 | Exp052 graph anchor with the ILP division prior lowered from 1.0 to 0.9 |
+| exp057 | Center-confirmed marginal gap repair | Exp052 graph anchor with epoch-400 DeepCenter confirmation restricted to marginal one-frame gaps |
 
 ## Validation
 

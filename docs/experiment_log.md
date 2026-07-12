@@ -15,6 +15,8 @@ The 2026-07-09 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
+The 2026-07-11 and 2026-07-12 batches each started with zero same-day rows in
+the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -61,6 +63,7 @@ submission table.
 | exp053 | `beicicc/biohub-exp053-pilkwang-v21-rescue` | Exp052 graph anchor with conditional high-confidence short-track recovery when pruning is unusually severe | complete | 0.900 | Ref 54533859; ties current best; visible run 252,842 rows with 128,715 nodes and 124,127 edges; rescue triggered on one dataset and restored 41 components with 180 nodes |
 | exp054 | `beicicc/biohub-exp054-pilkwang-v23-precision-9725` | Exp052 graph anchor with detection threshold raised from 0.9700 to 0.9725 while graph constraints remain fixed | complete | 0.899 | Ref 54553760; 0.001 below current best; visible run 251,670 rows with 128,106 nodes and 123,564 edges; prediction stage 10.85 minutes; removed 429 nodes and 424 edges relative to exp052 |
 | exp056 | `beicicc/biohub-exp056-division-prior09` | Exp052 graph anchor with the ILP division prior lowered from 1.0 to 0.9 while detection and post-processing remain fixed | complete | 0.900 | Ref 54563539; ties current best; visible run 252,526 rows with 128,537 nodes and 123,989 edges; prediction stage 10.39 minutes; added 2 nodes and 1 edge relative to exp052 |
+| exp057 | `beicicc/biohub-exp057-center-confirmed-marginal-gap` | Exp052 graph anchor with an immutable epoch-400 DeepCenter checkpoint confirming only one-frame gap repairs spanning at least 8 um | complete | 0.901 | Ref 54595520; new best public score; visible run 247,815 rows with 126,279 nodes and 121,536 edges; 733 marginal repairs checked and rejected, 1,335 strong-motion repairs retained; submission SHA-256 `37c01034d31d63087e2e4433e4c7a7c4e1eb2fd91b115aae78da3a100de5f901` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
