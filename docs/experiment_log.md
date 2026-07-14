@@ -15,8 +15,8 @@ The 2026-07-09 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
-The 2026-07-11 and 2026-07-12 batches each started with zero same-day rows in
-the official submission table.
+The 2026-07-11, 2026-07-12, 2026-07-13, and 2026-07-14 batches each started
+with zero same-day rows in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -65,6 +65,12 @@ the official submission table.
 | exp056 | `beicicc/biohub-exp056-division-prior09` | Exp052 graph anchor with the ILP division prior lowered from 1.0 to 0.9 while detection and post-processing remain fixed | complete | 0.900 | Ref 54563539; ties current best; visible run 252,526 rows with 128,537 nodes and 123,989 edges; prediction stage 10.39 minutes; added 2 nodes and 1 edge relative to exp052 |
 | exp057 | `beicicc/biohub-exp057-center-confirmed-marginal-gap` | Exp052 graph anchor with an immutable epoch-400 DeepCenter checkpoint confirming only one-frame gap repairs spanning at least 8 um | complete | 0.901 | Ref 54595520; new best public score; visible run 247,815 rows with 126,279 nodes and 121,536 edges; 733 marginal repairs checked and rejected, 1,335 strong-motion repairs retained; submission SHA-256 `37c01034d31d63087e2e4433e4c7a7c4e1eb2fd91b115aae78da3a100de5f901` |
 | exp058 | `beicicc/biohub-exp058-center-gap-span775` | Exp057 graph anchor with the DeepCenter confirmation span lowered from 8.0 to 7.75 um while every other model and graph setting remains fixed | complete | 0.901 | Ref 54607842; ties current best; visible run 247,691 rows with 126,224 nodes and 121,467 edges; 757 marginal repairs checked and rejected, 1,311 strong-motion repairs retained; submission SHA-256 `b7430ab2ef96d213f436ee5c374fa06f9bae42c9fd0c7912fc2ffce298780adb`; public Code `beicicc/biohub-exp058-center-gap-span-7-75-public` V1 reproduced the exact submission |
+| exp060 | `beicicc/biohub-exp060-motion-learned-bonus-082` | Exp057 anchor with the motion-relink learned-edge bonus raised from 0.75 to 0.82 | complete | 0.901 | Ref 54622005; ties current best; visible run 247,804 rows with 126,274 nodes and 121,530 edges; submission SHA-256 `43e3351bec0545cc4b2bdd7067de0c928772f8f8901f67a54baeeecd14e6e60b` |
+| exp066 | `beicicc/biohub-exp066-linefit-weight-077` | Exp057 topology with the output line-fit coordinate weight lowered from 0.80 to 0.77 | complete | 0.901 | Ref 54630556; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `d9d8f9e7601b1b39ddfcd357f4677cf7d9dc8207a7642a884a28067b78630993` |
+| exp068 | `beicicc/biohub-exp068-linefit-weight-076` | Exp057 topology with the output line-fit coordinate weight lowered to 0.76 | complete | 0.901 | Ref 54631855; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `4876011b784961d8e515bd8b1a9bee427ebb08caccc6fe52c05a85108ec01552` |
+| exp069 | `beicicc/biohub-exp069-linefit-weight-078` | Exp057 topology with the output line-fit coordinate weight lowered to 0.78 | complete | 0.901 | Ref 54632459; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `ec8a6aea8a6246cc8eea5010768da774632ae4a3234b3790882d2aa321bde336` |
+| exp070 | `beicicc/biohub-exp070-linefit-weight-079` | Exp057 topology with the output line-fit coordinate weight lowered to 0.79 | complete | 0.901 | Ref 54633107; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `48998f99a1d4c8dc514d6928adb6b7b0c7f2e9de8ff78f3a560f079d0c41510f` |
+| exp071 | `beicicc/biohub-exp071-linefit-weight-081` | Exp057 topology with the output line-fit coordinate weight raised to 0.81 | complete | 0.901 | Ref 54634045; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `4af9053a5b3d8b6938936c837b1ae1b09171ebb636f9b44a5421a9dcfbc0f56c`; public Code `beicicc/biohub-exp071-linefit-weight-0-81-public` V1 reproduced the exact submission |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use

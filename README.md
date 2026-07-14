@@ -69,6 +69,12 @@ graph tracking:
 | exp056 | Conservative division prior 0.9 | Exp052 graph anchor with the ILP division prior lowered from 1.0 to 0.9 |
 | exp057 | Center-confirmed marginal gap repair | Exp052 graph anchor with epoch-400 DeepCenter confirmation restricted to marginal one-frame gaps |
 | exp058 | Center confirmation from 7.75 um | Exp057 graph anchor with DeepCenter confirmation beginning at a 7.75 um one-frame gap span |
+| exp060 | Motion learned bonus 0.82 | Exp057 graph anchor with a stronger learned-edge preference during motion relinking |
+| exp066 | Line-fit weight 0.77 | Exp057 topology with a lower coordinate smoothing weight |
+| exp068 | Line-fit weight 0.76 | Exp057 topology with a further reduced coordinate smoothing weight |
+| exp069 | Line-fit weight 0.78 | Exp057 topology with an intermediate coordinate smoothing weight |
+| exp070 | Line-fit weight 0.79 | Exp057 topology with a near-anchor coordinate smoothing weight |
+| exp071 | Line-fit weight 0.81 | Exp057 topology with a slightly higher coordinate smoothing weight |
 
 ## Validation
 
