@@ -75,6 +75,11 @@ graph tracking:
 | exp069 | Line-fit weight 0.78 | Exp057 topology with an intermediate coordinate smoothing weight |
 | exp070 | Line-fit weight 0.79 | Exp057 topology with a near-anchor coordinate smoothing weight |
 | exp071 | Line-fit weight 0.81 | Exp057 topology with a slightly higher coordinate smoothing weight |
+| exp072 | Public 0.902 anchor reproduction | Motion bonus 1.0, safe-division sister radius 8.5, and gap distance 6.0 |
+| exp073 | Gap distance 5.8 | Tighter one-frame gap closing on the exp072 graph anchor |
+| exp074 | Gap distance 6.2 | Wider one-frame gap closing on the exp072 graph anchor |
+| exp075 | Five-node kinematic rescue | Conservative recovery of isolated five-node motion-consistent components |
+| exp078 | Gap distance 6.1 | Narrow gap-distance calibration between exp072 and exp074 |
 
 ## Validation
 

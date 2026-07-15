@@ -15,8 +15,8 @@ The 2026-07-09 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
-The 2026-07-11, 2026-07-12, 2026-07-13, and 2026-07-14 batches each started
-with zero same-day rows in the official submission table.
+The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, and 2026-07-15 batches
+each started with zero same-day rows in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -71,6 +71,11 @@ with zero same-day rows in the official submission table.
 | exp069 | `beicicc/biohub-exp069-linefit-weight-078` | Exp057 topology with the output line-fit coordinate weight lowered to 0.78 | complete | 0.901 | Ref 54632459; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `ec8a6aea8a6246cc8eea5010768da774632ae4a3234b3790882d2aa321bde336` |
 | exp070 | `beicicc/biohub-exp070-linefit-weight-079` | Exp057 topology with the output line-fit coordinate weight lowered to 0.79 | complete | 0.901 | Ref 54633107; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `48998f99a1d4c8dc514d6928adb6b7b0c7f2e9de8ff78f3a560f079d0c41510f` |
 | exp071 | `beicicc/biohub-exp071-linefit-weight-081` | Exp057 topology with the output line-fit coordinate weight raised to 0.81 | complete | 0.901 | Ref 54634045; ties current best; graph topology remains 126,279 nodes and 121,536 edges; submission SHA-256 `4af9053a5b3d8b6938936c837b1ae1b09171ebb636f9b44a5421a9dcfbc0f56c`; public Code `beicicc/biohub-exp071-linefit-weight-0-81-public` V1 reproduced the exact submission |
+| exp072 | `beicicc/biohub-exp072-public0902-repro` | Exact reproduction of the public 0.902 motion and division calibration anchor with a 6.0 um gap distance | complete | 0.902 | Ref 54677379; 252,513 rows with 128,511 nodes and 124,002 edges; submission SHA-256 `8c73d776abca799a37c2bd24768a1bbb510418c3327192430730540d56cea698` |
+| exp073 | `beicicc/biohub-exp073-public0902-gap58-v2` | Exp072 graph anchor with the one-frame gap-closing distance tightened from 6.0 to 5.8 um | complete | 0.903 | Ref 54677767; new best public score; 251,900 rows with 128,217 nodes and 123,683 edges; submission SHA-256 `7f041747b707498377a525ed498c84212161615361b28d473620cf70acf1a3ba`; public Code `beicicc/biohub-exp073-gap-5-8-public` V1 reproduced the exact submission |
+| exp074 | `beicicc/biohub-exp074-public0902-gap62-v2` | Exp072 graph anchor with the one-frame gap-closing distance widened from 6.0 to 6.2 um | complete | 0.902 | Ref 54677842; 252,914 rows with 128,708 nodes and 124,206 edges; submission SHA-256 `f1f119f44c08bdfb2f8dc80e0ecf2e90c6ca9c2625d4bb8b0ad86ed949c7814e` |
+| exp075 | `beicicc/biohub-exp075-public0902-five-node-rescue-v2` | Exp072 anchor with a conservative five-node kinematic component rescue | complete | 0.902 | Ref 54678880; 15 components restored, adding 75 nodes and 60 edges; submission SHA-256 `6a65fd2e746de4748d0437e2444b071b8fabb374fe537cf7663d073aa4f25a1a` |
+| exp078 | `beicicc/biohub-exp078-public0902-gap61` | Exp072 graph anchor with the one-frame gap-closing distance set to 6.1 um | complete | 0.902 | Ref 54680148; 252,683 rows with 128,596 nodes and 124,087 edges; submission SHA-256 `f82586fc861a046ef59445c5815e890cffd347faf0e005f4a9d88ac7f517d248` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
