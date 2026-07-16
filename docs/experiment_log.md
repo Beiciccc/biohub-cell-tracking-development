@@ -15,8 +15,9 @@ The 2026-07-09 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
-The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, and 2026-07-15 batches
-each started with zero same-day rows in the official submission table.
+The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
+2026-07-16 batches each started with zero same-day rows in the official
+submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -76,6 +77,11 @@ each started with zero same-day rows in the official submission table.
 | exp074 | `beicicc/biohub-exp074-public0902-gap62-v2` | Exp072 graph anchor with the one-frame gap-closing distance widened from 6.0 to 6.2 um | complete | 0.902 | Ref 54677842; 252,914 rows with 128,708 nodes and 124,206 edges; submission SHA-256 `f1f119f44c08bdfb2f8dc80e0ecf2e90c6ca9c2625d4bb8b0ad86ed949c7814e` |
 | exp075 | `beicicc/biohub-exp075-public0902-five-node-rescue-v2` | Exp072 anchor with a conservative five-node kinematic component rescue | complete | 0.902 | Ref 54678880; 15 components restored, adding 75 nodes and 60 edges; submission SHA-256 `6a65fd2e746de4748d0437e2444b071b8fabb374fe537cf7663d073aa4f25a1a` |
 | exp078 | `beicicc/biohub-exp078-public0902-gap61` | Exp072 graph anchor with the one-frame gap-closing distance set to 6.1 um | complete | 0.902 | Ref 54680148; 252,683 rows with 128,596 nodes and 124,087 edges; submission SHA-256 `f82586fc861a046ef59445c5815e890cffd347faf0e005f4a9d88ac7f517d248` |
+| exp079 | `beicicc/biohub-exp079-gap57-reuse` | Exp073 prediction graphs with the one-frame gap-closing distance tightened from 5.8 to 5.7 um | complete | pending | Ref 54706448; 251,645 rows with 128,101 nodes and 123,544 edges; submission SHA-256 `8359b0773ad914e3188a695f3e80a1d3403fa9b1ec2ce1400c47db4eefe778ae` |
+| exp080 | `beicicc/biohub-exp080-gap56-reuse` | Exp073 prediction graphs with the one-frame gap-closing distance tightened from 5.8 to 5.6 um | complete | pending | Ref 54706685; 251,461 rows with 128,014 nodes and 123,447 edges; submission SHA-256 `c4ddcb0ef707478364f0b4fa68257629c9bc49ace04f8ff773ec8b802b36f6b2` |
+| exp083 | `beicicc/biohub-exp083-gap59-reuse` | Exp073 prediction graphs with the one-frame gap-closing distance widened from 5.8 to 5.9 um | complete | pending | Ref 54706690; 252,147 rows with 128,337 nodes and 123,810 edges; submission SHA-256 `17258e7c86b41fa16206b9289ca0c5449e8c5884195b0b446d73b7e6e7cf7d15` |
+| exp084 | `beicicc/biohub-exp084-det096875-gap58` | Exp073 graph strategy with the detection threshold lowered from 0.9700 to 0.96875 | complete | 0.903 | Ref 54706861; ties the best confirmed public score; 252,357 rows with 128,451 nodes and 123,906 edges; submission SHA-256 `180849eb89b204bf8480f5c3759b6233c4aa993300ded3abe6976e472131603e`; public Code `beicicc/biohub-exp084-det-0-96875-gap-5-8-public` V1 reproduced the exact submission |
+| exp086 | `beicicc/biohub-exp086-gap58-context-div-reuse` | Exp073 prediction graphs with cap-aware safe-division reranking by daughter balance and local spacing | complete | pending | Ref 54706795; 154 ranking positions and 21 top choices changed; 251,891 rows with 128,212 nodes and 123,679 edges; submission SHA-256 `70ff48e92a59472a210697a5d04e95d8d06ca257a97fd63ee5274c71518eeffe` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use

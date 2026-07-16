@@ -80,6 +80,11 @@ graph tracking:
 | exp074 | Gap distance 6.2 | Wider one-frame gap closing on the exp072 graph anchor |
 | exp075 | Five-node kinematic rescue | Conservative recovery of isolated five-node motion-consistent components |
 | exp078 | Gap distance 6.1 | Narrow gap-distance calibration between exp072 and exp074 |
+| exp079 | Gap distance 5.7 | Tighter one-frame gap closing on the exp073 graph anchor |
+| exp080 | Gap distance 5.6 | Further tightened one-frame gap closing on the exp073 graph anchor |
+| exp083 | Gap distance 5.9 | Wider one-frame gap closing on the exp073 graph anchor |
+| exp084 | Detection threshold 0.96875 | Lower detection threshold with gap distance fixed at 5.8 |
+| exp086 | Contextual division priority | Cap-aware reranking by daughter balance and local spacing |
 
 ## Validation
 
