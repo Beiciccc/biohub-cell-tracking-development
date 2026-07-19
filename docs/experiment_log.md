@@ -17,7 +17,8 @@ The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
 2026-07-16 batches each started with zero same-day rows in the official
-submission table.
+submission table. The 2026-07-19 batch started with zero same-day rows in the
+official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -82,6 +83,12 @@ submission table.
 | exp083 | `beicicc/biohub-exp083-gap59-reuse` | Exp073 prediction graphs with the one-frame gap-closing distance widened from 5.8 to 5.9 um | complete | pending | Ref 54706690; 252,147 rows with 128,337 nodes and 123,810 edges; submission SHA-256 `17258e7c86b41fa16206b9289ca0c5449e8c5884195b0b446d73b7e6e7cf7d15` |
 | exp084 | `beicicc/biohub-exp084-det096875-gap58` | Exp073 graph strategy with the detection threshold lowered from 0.9700 to 0.96875 | complete | 0.903 | Ref 54706861; ties the best confirmed public score; 252,357 rows with 128,451 nodes and 123,906 edges; submission SHA-256 `180849eb89b204bf8480f5c3759b6233c4aa993300ded3abe6976e472131603e`; public Code `beicicc/biohub-exp084-det-0-96875-gap-5-8-public` V1 reproduced the exact submission |
 | exp086 | `beicicc/biohub-exp086-gap58-context-div-reuse` | Exp073 prediction graphs with cap-aware safe-division reranking by daughter balance and local spacing | complete | pending | Ref 54706795; 154 ranking positions and 21 top choices changed; 251,891 rows with 128,212 nodes and 123,679 edges; submission SHA-256 `70ff48e92a59472a210697a5d04e95d8d06ca257a97fd63ee5274c71518eeffe` |
+| exp087 | `beicicc/biohub-exp087-det096875-gap58-context-div-reuse` | Detection threshold 0.96875 with contextual safe-division ordering | complete | pending | Ref 54749005 |
+| exp088 | `beicicc/biohub-exp088-det096875-gap57-reuse` | Detection threshold 0.96875 with 5.7 um one-frame gap closing | complete | pending | Ref 54748908 |
+| exp089 | `beicicc/biohub-exp089-det096875-gap59-reuse` | Detection threshold 0.96875 with 5.9 um one-frame gap closing | complete | pending | Ref 54748915 |
+| exp090 | `beicicc/biohub-exp090-det09675-gap58` | Detection threshold 0.9675 with 5.8 um one-frame gap closing | complete | 0.903 | Ref 54748922 |
+| exp093 | `beicicc/biohub-exp093-det096875-gap58-div-parent40` | Detection threshold 0.96875 with a 4.0 um safe-division parent gate | complete | pending | Ref 54748925 |
+| exp096 | `beicicc/biohub-exp096-det096625-gap58` | Detection threshold 0.96625 with 5.8 um one-frame gap closing | pending | pending | Ref 54829920; 253,246 rows with 128,897 nodes and 124,349 edges; submission SHA-256 `1b714ebce29e67a907de7051c0747a590901e04e98276fb046a6d938aea7615f` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use

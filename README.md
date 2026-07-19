@@ -85,6 +85,12 @@ graph tracking:
 | exp083 | Gap distance 5.9 | Wider one-frame gap closing on the exp073 graph anchor |
 | exp084 | Detection threshold 0.96875 | Lower detection threshold with gap distance fixed at 5.8 |
 | exp086 | Contextual division priority | Cap-aware reranking by daughter balance and local spacing |
+| exp087 | Contextual division priority | Detection threshold 0.96875 with the same contextual division ordering |
+| exp088 | Gap distance 5.7 | Tighter one-frame gap closing on the 0.96875 detection anchor |
+| exp089 | Gap distance 5.9 | Wider one-frame gap closing on the 0.96875 detection anchor |
+| exp090 | Detection threshold 0.9675 | Lower detection threshold with gap distance fixed at 5.8 |
+| exp093 | Division parent distance 4.0 | Stricter parent-to-daughter distance gate for safe divisions |
+| exp096 | Detection threshold 0.96625 | Lower detection threshold with gap distance fixed at 5.8 |
 
 ## Validation
 
@@ -93,4 +99,5 @@ python scripts/validate_submission.py /path/to/submission.csv --test-dir /path/t
 ```
 
 The validator checks column order, row invariants, integer fields, node-id
-references, and dataset coverage when a test directory is supplied.
+references, node coordinates, edge uniqueness, consecutive-frame links, degree
+limits, and dataset coverage when a test directory is supplied.

@@ -49,6 +49,8 @@ def validate(path: Path, test_dir: Path | None) -> None:
     bad_nodes = node_rows[(node_rows["source_id"] != -1) | (node_rows["target_id"] != -1)]
     if len(bad_nodes):
         fail("node rows must have source_id=target_id=-1")
+    if (node_rows[["t", "z", "y", "x"]] < 0).any().any():
+        fail("node rows must have non-negative time and coordinates")
 
     bad_edges = edge_rows[
         (edge_rows["node_id"] != -1)
@@ -61,13 +63,29 @@ def validate(path: Path, test_dir: Path | None) -> None:
         fail("edge rows must have node_id,t,z,y,x all set to -1")
 
     for dataset, group in df.groupby("dataset"):
-        nodes = set(group.loc[group["row_type"] == "node", "node_id"].astype(int))
-        if len(nodes) != len(group.loc[group["row_type"] == "node"]):
+        dataset_nodes = group.loc[group["row_type"] == "node", ["node_id", "t"]].copy()
+        nodes = set(dataset_nodes["node_id"].astype(int))
+        if len(nodes) != len(dataset_nodes):
             fail(f"duplicate node_id in {dataset}")
+        edges = group.loc[group["row_type"] == "edge", ["source_id", "target_id"]].copy()
         for col in ("source_id", "target_id"):
-            missing = set(group.loc[group["row_type"] == "edge", col].astype(int)) - nodes
+            missing = set(edges[col].astype(int)) - nodes
             if missing:
                 fail(f"{dataset} has {len(missing)} edge references missing from {col}")
+        if edges.duplicated().any():
+            fail(f"{dataset} has duplicate source-target edges")
+        if (edges["source_id"] == edges["target_id"]).any():
+            fail(f"{dataset} has self-loop edges")
+        if len(edges):
+            node_times = dataset_nodes.set_index("node_id")["t"]
+            source_times = edges["source_id"].map(node_times)
+            target_times = edges["target_id"].map(node_times)
+            if not (target_times == source_times + 1).all():
+                fail(f"{dataset} has edges that do not connect consecutive frames")
+            if (edges.groupby("target_id").size() > 1).any():
+                fail(f"{dataset} has nodes with indegree greater than one")
+            if (edges.groupby("source_id").size() > 2).any():
+                fail(f"{dataset} has nodes with outdegree greater than two")
 
     if test_dir is not None:
         expected = sorted(p.name[:-5] for p in test_dir.iterdir() if p.name.endswith(".zarr"))
