@@ -91,6 +91,7 @@ graph tracking:
 | exp090 | Detection threshold 0.9675 | Lower detection threshold with gap distance fixed at 5.8 |
 | exp093 | Division parent distance 4.0 | Stricter parent-to-daughter distance gate for safe divisions |
 | exp096 | Detection threshold 0.96625 | Lower detection threshold with gap distance fixed at 5.8 |
+| exp099 | Division global cap 0.00350 | Lower cap on safe-division additions with other graph settings fixed |
 | exp101 | Five-node kinematic rescue | Bounded recovery of motion-consistent five-node components |
 
 ## Validation
