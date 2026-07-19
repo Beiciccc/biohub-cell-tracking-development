@@ -89,6 +89,7 @@ official submission table.
 | exp090 | `beicicc/biohub-exp090-det09675-gap58` | Detection threshold 0.9675 with 5.8 um one-frame gap closing | complete | 0.903 | Ref 54748922 |
 | exp093 | `beicicc/biohub-exp093-det096875-gap58-div-parent40` | Detection threshold 0.96875 with a 4.0 um safe-division parent gate | complete | pending | Ref 54748925 |
 | exp096 | `beicicc/biohub-exp096-det096625-gap58` | Detection threshold 0.96625 with 5.8 um one-frame gap closing | pending | pending | Ref 54829920; 253,246 rows with 128,897 nodes and 124,349 edges; submission SHA-256 `1b714ebce29e67a907de7051c0747a590901e04e98276fb046a6d938aea7615f` |
+| exp101 | `beicicc/biohub-exp101-det09675-gap58-r5-reuse` | Detection threshold 0.9675 with bounded five-node motion-consistent component recovery | pending | pending | Ref 54829961; 253,051 rows with 128,812 nodes and 124,239 edges; submission SHA-256 `8a858afa2304e6b102c9146c95fe7bf0d331b5b05f04cf55b415b13faea5bad8` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
