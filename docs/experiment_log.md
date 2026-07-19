@@ -92,6 +92,7 @@ official submission table.
 | exp099 | `beicicc/biohub-exp099-det09675-divcap350-reuse` | Detection threshold 0.9675 with safe-division global cap 0.00350 | pending | pending | Ref 54830019; 252,841 rows with 128,707 nodes and 124,134 edges; submission SHA-256 `5af0f7161139b7c4a21bfb6b02a0dc661810e1f134fb7dd400d3fedf7bf7d30c` |
 | exp101 | `beicicc/biohub-exp101-det09675-gap58-r5-reuse` | Detection threshold 0.9675 with bounded five-node motion-consistent component recovery | pending | pending | Ref 54829961; 253,051 rows with 128,812 nodes and 124,239 edges; submission SHA-256 `8a858afa2304e6b102c9146c95fe7bf0d331b5b05f04cf55b415b13faea5bad8` |
 | exp103 | `beicicc/biohub-exp103-det09650-gap58` | Detection threshold 0.9650 with 5.8 um one-frame gap closing | pending | pending | Ref 54830273; 253,681 rows with 129,124 nodes and 124,557 edges; submission SHA-256 `7ffa3a4647c42e7017c47d23274419031feb5846e84e8f06dc117c4206bd0984` |
+| exp105 | `beicicc/biohub-exp105-det09675-divcap3625-reuse` | Detection threshold 0.9675 with safe-division global cap 0.003625 | pending | pending | Ref 54830377; 252,874 rows with 128,720 nodes and 124,154 edges; submission SHA-256 `20cfaff3ec4e20ca03e67743138956949b0d41bdeb161cf74eeff335436d6674` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use

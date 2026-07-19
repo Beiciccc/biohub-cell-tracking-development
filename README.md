@@ -94,6 +94,7 @@ graph tracking:
 | exp099 | Division global cap 0.00350 | Lower cap on safe-division additions with other graph settings fixed |
 | exp101 | Five-node kinematic rescue | Bounded recovery of motion-consistent five-node components |
 | exp103 | Detection threshold 0.9650 | Lower detection threshold with gap distance fixed at 5.8 |
+| exp105 | Division global cap 0.003625 | Moderately lower cap on safe-division additions with other graph settings fixed |
 
 ## Validation
 
