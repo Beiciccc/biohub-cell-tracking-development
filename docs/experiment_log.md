@@ -17,8 +17,8 @@ The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
 2026-07-16 batches each started with zero same-day rows in the official
-submission table. The 2026-07-19 batch started with zero same-day rows in the
-official submission table.
+submission table. The 2026-07-19 and 2026-07-20 batches each started with zero
+same-day rows in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -93,6 +93,7 @@ official submission table.
 | exp101 | `beicicc/biohub-exp101-det09675-gap58-r5-reuse` | Detection threshold 0.9675 with bounded five-node motion-consistent component recovery | complete | pending | Ref 54829961; 253,051 rows with 128,812 nodes and 124,239 edges; submission SHA-256 `8a858afa2304e6b102c9146c95fe7bf0d331b5b05f04cf55b415b13faea5bad8` |
 | exp103 | `beicicc/biohub-exp103-det09650-gap58` | Detection threshold 0.9650 with 5.8 um one-frame gap closing | complete | 0.903 | Ref 54830273; 253,681 rows with 129,124 nodes and 124,557 edges; submission SHA-256 `7ffa3a4647c42e7017c47d23274419031feb5846e84e8f06dc117c4206bd0984`; public Code [beicicc/biohub-exp103-det09650-gap58-public](https://www.kaggle.com/code/beicicc/biohub-exp103-det09650-gap58-public) V1 reproduced the exact submission |
 | exp105 | `beicicc/biohub-exp105-det09675-divcap3625-reuse` | Detection threshold 0.9675 with safe-division global cap 0.003625 | complete | pending | Ref 54830377; 252,874 rows with 128,720 nodes and 124,154 edges; submission SHA-256 `20cfaff3ec4e20ca03e67743138956949b0d41bdeb161cf74eeff335436d6674` |
+| exp108 | `beicicc/biohub-exp115-division-child-750-reuse` V2 | Exp084 prediction graph calibration with safe-division global cap 0.003875 | pending | pending | Ref 54844760; 252,378 rows with 128,457 nodes and 123,921 edges; submission SHA-256 `f705f08ea3ddc51164e368d1129bc641ac87f0e7ae5b13a06cfb34727e230ebc` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
