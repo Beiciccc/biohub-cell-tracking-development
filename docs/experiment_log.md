@@ -95,6 +95,7 @@ same-day rows in the official submission table.
 | exp105 | `beicicc/biohub-exp105-det09675-divcap3625-reuse` | Detection threshold 0.9675 with safe-division global cap 0.003625 | complete | pending | Ref 54830377; 252,874 rows with 128,720 nodes and 124,154 edges; submission SHA-256 `20cfaff3ec4e20ca03e67743138956949b0d41bdeb161cf74eeff335436d6674` |
 | exp108 | `beicicc/biohub-exp115-division-child-750-reuse` V2 | Exp084 prediction graph calibration with safe-division global cap 0.003875 | pending | pending | Ref 54844760; 252,378 rows with 128,457 nodes and 123,921 edges; submission SHA-256 `f705f08ea3ddc51164e368d1129bc641ac87f0e7ae5b13a06cfb34727e230ebc` |
 | exp111 | `beicicc/biohub-exp111-division-cap-3625-reuse` V4 | Exp084 prediction graph calibration with safe-division global cap 0.003625 | pending | pending | Ref 54844781; 252,325 rows with 128,440 nodes and 123,885 edges; submission SHA-256 `2d55b67dfabc8e37553de0417af465bf0803acca836b8301fbc28e7c4d3128c5` |
+| exp112 | `beicicc/biohub-exp112-division-cap-3700-reuse` V3 | Exp084 prediction graph calibration with safe-division global cap 0.00370 | pending | pending | Ref 54844814; 252,336 rows with 128,442 nodes and 123,894 edges; submission SHA-256 `4824d5dd35fd6e510c9b9ec94a2587947203aa967470b86347f6970618e3b666` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
