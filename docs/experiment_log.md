@@ -17,8 +17,8 @@ The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
 2026-07-16 batches each started with zero same-day rows in the official
-submission table. The 2026-07-19 and 2026-07-20 batches each started with zero
-same-day rows in the official submission table.
+submission table. The 2026-07-19, 2026-07-20, and 2026-07-21 batches each
+started with zero same-day rows in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -98,6 +98,7 @@ same-day rows in the official submission table.
 | exp112 | `beicicc/biohub-exp112-division-cap-3700-reuse` V3 | Exp084 prediction graph calibration with safe-division global cap 0.00370 | complete | pending | Ref 54844814; 252,336 rows with 128,442 nodes and 123,894 edges; submission SHA-256 `4824d5dd35fd6e510c9b9ec94a2587947203aa967470b86347f6970618e3b666` |
 | exp113 | `beicicc/biohub-exp113-division-cap-3500-reuse` V3 | Exp084 prediction graph calibration with safe-division global cap 0.00350 | complete | pending | Ref 54844839; 252,291 rows with 128,427 nodes and 123,864 edges; submission SHA-256 `6ea64b8e180c23a51733cbc873827446f52340b5d678a31094a1f24533e430d8` |
 | exp116 | `beicicc/biohub-exp116-division-cap-3800-reuse` V4 | Exp084 prediction graph calibration with safe-division global cap 0.00380 | pending | pending | Ref 54845108; 252,365 rows with 128,453 nodes and 123,912 edges; submission SHA-256 `7849be0fd5a3b3e73436fdbf2dc19290c96910f86f08d35c9144acf1ccee37e0` |
+| exp122 | `beicicc/biohub-exp122-base-division-budget-1` V1 | Exp084 final graph with one strict geometry-validated division edge per dataset | pending | pending | Ref 54866150; 252,361 rows with 128,451 nodes and 123,910 edges; preserves all base nodes and edges; submission SHA-256 `fd795546e391bc5c3e30ba9263640a138e631f40eeb4eaf937977c8943e38d93` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
