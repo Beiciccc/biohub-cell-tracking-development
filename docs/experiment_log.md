@@ -17,8 +17,8 @@ The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
 2026-07-16 batches each started with zero same-day rows in the official
-submission table. The 2026-07-19, 2026-07-20, and 2026-07-21 batches each
-started with zero same-day rows in the official submission table.
+submission table. The 2026-07-19, 2026-07-20, 2026-07-21, and 2026-07-22
+batches each started with zero same-day rows in the official submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -101,6 +101,7 @@ started with zero same-day rows in the official submission table.
 | exp122 | `beicicc/biohub-exp122-base-division-budget-1` V1 | Exp084 final graph with one strict geometry-validated division edge per dataset | pending | pending | Ref 54866150; 252,361 rows with 128,451 nodes and 123,910 edges; preserves all base nodes and edges; submission SHA-256 `fd795546e391bc5c3e30ba9263640a138e631f40eeb4eaf937977c8943e38d93` |
 | exp123 | `beicicc/biohub-exp123-base-division-budget-2` V1 | Exp084 final graph with two strict geometry-validated division edges per dataset | pending | pending | Ref 54866290; 252,365 rows with 128,451 nodes and 123,914 edges; preserves all base nodes and edges; submission SHA-256 `f392c122a1abb1e6140a1c8749adcfe89828566dff0838ef9b97fba8cfec81ab` |
 | exp124 | `beicicc/biohub-exp124-base-division-budget-3` V1 | Exp084 final graph with three strict geometry-validated division edges per dataset | pending | pending | Ref 54866410; 252,369 rows with 128,451 nodes and 123,918 edges; preserves all base nodes and edges; submission SHA-256 `fff34a82c9a159f91a9ee98dea5387813bf8608933c7a22fa75c0e7a1f0b3b1f` |
+| exp127 | `beicicc/biohub-exp127-public-base-division-p1` V1 | Public exp084 final graph with one highest-confidence strict geometry-validated division edge | pending | pending | Ref 54891189; 252,358 rows with 128,451 nodes and 123,907 edges; preserves all base nodes and edges; submission SHA-256 `5966ec3f19976c3b48d2e41ec2cc85e5e60f8cf24bb12a523a472b97fef08b54` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
