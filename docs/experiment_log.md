@@ -17,8 +17,8 @@ The 2026-07-10 batch started with zero same-day rows in the official
 submission table.
 The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
 2026-07-16 batches each started with zero same-day rows in the official
-submission table. The 2026-07-19, 2026-07-20, 2026-07-21, 2026-07-22, and
-2026-07-23 batches each started with zero same-day rows in the official
+submission table. The 2026-07-19, 2026-07-20, 2026-07-21, 2026-07-22,
+2026-07-23, and 2026-07-24 batches each started with zero same-day rows in the official
 submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
@@ -107,11 +107,11 @@ submission table.
 | exp129 | `beicicc/biohub-exp129-public-base-division-p3` V1 | Public exp084 final graph with two tight balanced geometry-validated division edges | complete | pending | Ref 54891423; 252,359 rows with 128,451 nodes and 123,908 edges; preserves all base nodes and edges; submission SHA-256 `067ad4dac5c5b8fc03b901c2a78c84065fd919f3ffe5f05270c579ba41318106` |
 | exp130 | `beicicc/biohub-exp130-public-base-division-p4` V1 | Public exp084 final graph with two tight-sister geometry-validated division edges | complete | pending | Ref 54891499; 252,359 rows with 128,451 nodes and 123,908 edges; preserves all base nodes and edges; submission SHA-256 `73fe09a28c8c0682ff63a09e7e133e6a34c9930b28ffde79576ed7482eb4ffa0` |
 | exp131 | `beicicc/biohub-exp131-public-base-division-p5` V1 | Public exp084 final graph with three sparse strict geometry-validated division edges | complete | pending | Ref 54891606; 252,360 rows with 128,451 nodes and 123,909 edges; preserves all base nodes and edges; submission SHA-256 `50efeb98d7a7261755a5f37003f80dfe3070a7869d96eba0067d67ec584df7a1` |
-| exp132 | `beicicc/biohub-exp132-exp103-branch-p1` V1 | Public exp103 final graph with one strict topology- and geometry-validated division edge | pending | pending | Ref 54919377; 253,682 rows with 129,124 nodes and 124,558 edges; preserves all base nodes and edges; submission SHA-256 `098ad7f771086ac2da50b6bb3b3bd7a0bc8da19b87811d017d137e349105d086` |
-| exp133 | `beicicc/biohub-exp133-exp103-branch-p2` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | pending | pending | Ref 54919566; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `157dcb8eba3e858b6b9c01b9d428b474fcfb548900e2f47fdf4d02c566c5caac` |
-| exp134 | `beicicc/biohub-exp134-exp103-branch-p3` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | pending | pending | Ref 54919692; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `16f1b90aaeafae838c73a8df9a2742a36ef629dbdbd15b7d77907d91bd496e03` |
-| exp135 | `beicicc/biohub-exp135-exp103-branch-p4` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | pending | pending | Ref 54919936; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `9cb13a3cec0e7faafd8609ce4360d8fc5e8de051d9ac3fb0e3afc1f05e2d508d` |
-| exp136 | `beicicc/biohub-exp136-exp103-branch-p5` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | pending | pending | Ref 54920096; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `d6fe3ec850e85e45995d8bbfb8c1c39edba1186a2f7488db9e06376afb10e7c0` |
+| exp132 | `beicicc/biohub-exp132-exp103-branch-p1` V1 | Public exp103 final graph with one strict topology- and geometry-validated division edge | complete | pending | Ref 54919377; 253,682 rows with 129,124 nodes and 124,558 edges; preserves all base nodes and edges; submission SHA-256 `098ad7f771086ac2da50b6bb3b3bd7a0bc8da19b87811d017d137e349105d086` |
+| exp133 | `beicicc/biohub-exp133-exp103-branch-p2` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | complete | pending | Ref 54919566; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `157dcb8eba3e858b6b9c01b9d428b474fcfb548900e2f47fdf4d02c566c5caac` |
+| exp134 | `beicicc/biohub-exp134-exp103-branch-p3` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | complete | pending | Ref 54919692; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `16f1b90aaeafae838c73a8df9a2742a36ef629dbdbd15b7d77907d91bd496e03` |
+| exp135 | `beicicc/biohub-exp135-exp103-branch-p4` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | complete | pending | Ref 54919936; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `9cb13a3cec0e7faafd8609ce4360d8fc5e8de051d9ac3fb0e3afc1f05e2d508d` |
+| exp136 | `beicicc/biohub-exp136-exp103-branch-p5` V1 | Public exp103 final graph with two strict topology- and geometry-validated division edges | complete | pending | Ref 54920096; 253,683 rows with 129,124 nodes and 124,559 edges; preserves all base nodes and edges; submission SHA-256 `d6fe3ec850e85e45995d8bbfb8c1c39edba1186a2f7488db9e06376afb10e7c0` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
