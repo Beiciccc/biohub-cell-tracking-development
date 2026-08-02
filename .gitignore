@@ -2,6 +2,8 @@ data/
 outputs/
 public_kernels/
 submissions/
+kaggle/
+scripts/
 *.zip
 *.csv
 *.log
