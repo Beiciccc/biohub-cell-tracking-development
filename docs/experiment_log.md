@@ -20,6 +20,8 @@ The 2026-07-11, 2026-07-12, 2026-07-13, 2026-07-14, 2026-07-15, and
 submission table. The 2026-07-19, 2026-07-20, 2026-07-21, 2026-07-22,
 2026-07-23, 2026-07-24, 2026-07-25, 2026-07-26, 2026-07-27, and 2026-07-28 batches each started with zero same-day rows in the official
 submission table.
+The 2026-08-03 batch started with zero same-day rows in the official
+submission table.
 
 | ID | Kernel | Method | Status | Public score | Notes |
 |---|---|---|---|---|---|
@@ -153,6 +155,7 @@ submission table.
 | exp175 | `beicicc/biohub-exp175-gap600` V1 | Dual-seed temporal detection and constrained lineage inference with the bounded one-frame gap-repair gate widened to 6.0 um | complete | 0.913 | Ref 55176337; 237,298 rows with 120,797 nodes and 116,501 edges across four datasets; 741 bounded intermediate detections; all edges are consecutive-frame with indegree at most one and outdegree at most two; submission SHA-256 `833a94831ce4dea24234cecf0e8f3abff45955e7fb57f57945d344f969311587` |
 | exp176 | `beicicc/biohub-exp176-edge010` V1 | Dual-seed temporal detection and constrained lineage inference with secondary edge blend weight reduced to 0.10 | complete | 0.913 | Ref 55177001; 237,020 rows with 120,658 nodes and 116,362 edges across four datasets; 741 bounded intermediate detections; all edges are consecutive-frame with indegree at most one and outdegree at most two; submission SHA-256 `bfcc334922d6c320fa114dca640a86fe8dc864d36a30fe8331fd058ca0de391c` |
 | exp177 | `beicicc/biohub-exp177-edge020` V1 | Dual-seed temporal detection and constrained lineage inference with secondary edge blend weight increased to 0.20 | complete | 0.913 | Ref 55177655; 237,591 rows with 120,946 nodes and 116,645 edges across four datasets; 742 bounded intermediate detections; all edges are consecutive-frame with indegree at most one and outdegree at most two; submission SHA-256 `4b5dbce6fbbea6d408eaa5ba2339af66f923bce1bd5655e0f536a5b3542dc939` |
+| exp178 | `beicicc/biohub-exp178-retention-rerun` V1 | Exact GPU replication of the fixed frame-wise candidate-retention baseline | pending | pending | Ref 55204197; 237,298 rows with 120,797 nodes and 116,501 edges across four datasets; 60 frame-level primary-detection fallbacks; all edges are consecutive-frame with indegree at most one and outdegree at most two; submission SHA-256 `8c1605b5944d25e401c74cb9885066536a189819feb4f2dc4eec68e3c8869e3f`; byte-identical to exp173 |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
