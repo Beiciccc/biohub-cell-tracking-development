@@ -200,6 +200,7 @@ submission table.
 | exp235 | Kaggle code notebook | Same ensemble with the short-track retention threshold increased to 7 | pending | pending | Ref 55598474; 242,532 rows with 123,659 nodes and 118,873 edges across four datasets; 334 division parents; submission SHA-256 `8334aa9d10b54ed0f89a820da99c951a03d73c2a8c28b09abff9d972c2d98c41` |
 | exp236 | Kaggle code notebook | Same ensemble with appearance-aware linking cost reduced to 1.5 | pending | pending | Ref 55599009; 247,583 rows with 126,405 nodes and 121,178 edges across four datasets; 350 division parents; submission SHA-256 `bd024b5a8a1b68c6c5792776199da4b8b00662d83484491754e667b1780c7fbc` |
 | exp237 | Kaggle code notebook | Same ensemble with appearance-aware linking cost increased to 2.5 | pending | pending | Ref 55599329; 247,546 rows with 126,384 nodes and 121,162 edges across four datasets; 351 division parents; submission SHA-256 `cd1414c21690bd7fdd0bc791bd0af30bdca7ea13e814ee9f9b781f3d592c6d43` |
+| exp238 | Kaggle code notebook | Same ensemble with the one-frame gap-repair pairing gate narrowed to 8.5 um | pending | pending | Ref 55599689; 247,614 rows with 126,422 nodes and 121,192 edges across four datasets; 352 division parents; submission SHA-256 `decc35165aac77799d9e3891a2406b298f7c0cc520061f6ffce071a80738e840` |
 
 Runtime rule update: CPU rule-based variants that take about 900 seconds on the
 public test set are not safe for submission. Further variants should either use
